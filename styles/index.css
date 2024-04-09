@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#pg-content {
+    background: #fff4ec;
+}
+
+.test {
+    height: 50vh;
+}
+
+#header {
+    background-color: #006a06;
+    height: 8vh;
+}
+
+#nav-bar {
+    height: 1vh;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+}
+
+#logo {
+
+}
+
+.nav-btn {
+    height: 1vh;
+    width: 2vw;
+}
+
+.nav-btn * {
+    height: 1vh;
+    width: 2vw;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5vw;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+#splash-screen {
+    height: 50vh;
+}
+
+#pages {
+    height: 30vh;
+    background: #6c9e61;
+}
+
+#footer {
+
+}
