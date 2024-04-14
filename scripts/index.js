@@ -6,6 +6,12 @@ const sliderBtn = document.getElementById("slider-btn");
 const sliderSwitchL = document.getElementById("slider-switch-l");
 const sliderSwitchR = document.getElementById("slider-switch-r");
 
+const initiativesBtn = document.getElementById("initiatives");
+
+initiativesBtn.addEventListener("click", function() {
+    window.location.href = "../initiatives.html";
+})
+
 function sliderSwitch(direction) {
     switch (direction) {
         case "left":

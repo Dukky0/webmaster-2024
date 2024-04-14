@@ -1,0 +1,67 @@
+#title {
+    font-size: 40px;
+
+    text-align: center;
+
+    margin-top: 3.3vh;
+}
+
+#solution-cards {
+
+}
+
+#row-1 {
+    width: 90%;
+
+    margin-inline: auto;
+}
+
+#row-2 {
+    width: 90%;
+
+    margin-inline: auto;
+}
+
+.card {
+    width: 26vw;
+    height: 30vh;
+
+    margin: 5vh 2vw;
+}
+
+.card-title {
+    font-size: 30px;
+
+    text-align: center;
+
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+}
+
+.card-btn {
+    text-align: center;
+}
+
+#electric-vehicles {
+
+}
+
+#solar-energy {
+
+}
+
+#initiatives {
+
+}
+
+#air-condiitoning {
+
+}
+
+#household-changes {
+
+}
+
+#passive-water-heating {
+
+}
