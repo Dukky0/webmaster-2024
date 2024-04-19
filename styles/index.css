@@ -195,6 +195,7 @@ a {
 .info-block-title * {
     font-size: 30px;
 
+    margin-top: 2vh;
     margin-inline: auto;
 }
 

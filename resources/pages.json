@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "title": "Electric Vehicles",
+      "link": "./link.html",
+      "content": "Lorem Ipsum",
+      "img": "img.png"
+    },
+    {
+      "id": 2,
+      "title": "Solar Energy",
+      "link": "./link.html",
+      "content": "Lorem Ipsum",
+      "img": "img.png"
+    },
+    {
+      "id": 3,
+      "title": "Home Insulation",
+      "link": "./link.html",
+      "content": "Lorem Ipsum",
+      "img": "img.png"
+    },
+    {
+      "id": 4,
+      "title": "Air Conditioning",
+      "link": "./link.html",
+      "content": "Lorem Ipsum",
+      "img": "img.png"
+    },
+    {
+      "id": 5,
+      "title": "Home Solutions",
+      "link": "./link.html",
+      "content": "Lorem Ipsum",
+      "img": "img.png"
+    },
+    {
+      "id": 6,
+      "title": "Passive Water Heating",
+      "link": "./link.html",
+      "content": "Lorem Ipsum",
+      "img": "img.png"
+    }
+  ]
+}
