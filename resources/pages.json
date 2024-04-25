@@ -3,42 +3,42 @@
     {
       "id": 1,
       "title": "Electric Vehicles",
-      "link": "./link.html",
+      "link": "./electricCar.html",
       "content": "Lorem Ipsum",
       "img": "img.png"
     },
     {
       "id": 2,
       "title": "Solar Energy",
-      "link": "./link.html",
+      "link": "./solar.html",
       "content": "Lorem Ipsum",
       "img": "img.png"
     },
     {
       "id": 3,
       "title": "Home Insulation",
-      "link": "./link.html",
+      "link": "./insulation.html",
       "content": "Lorem Ipsum",
       "img": "img.png"
     },
     {
       "id": 4,
       "title": "Air Conditioning",
-      "link": "./link.html",
+      "link": "./conditioning.html",
       "content": "Lorem Ipsum",
       "img": "img.png"
     },
     {
       "id": 5,
-      "title": "Home Solutions",
-      "link": "./link.html",
+      "title": "Household Changes",
+      "link": "./household.html",
       "content": "Lorem Ipsum",
       "img": "img.png"
     },
     {
       "id": 6,
       "title": "Passive Water Heating",
-      "link": "./link.html",
+      "link": "./water.html",
       "content": "Lorem Ipsum",
       "img": "img.png"
     }

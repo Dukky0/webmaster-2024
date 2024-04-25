@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+
+    font-family: "Comic Sans MS";
 }
 
 p {
@@ -61,6 +63,8 @@ a {
 
 .nav-btn:hover {
     background: #004303;
+
+    transition: background 0.5s;
 }
 
 .nav-btn * {
@@ -155,17 +159,25 @@ a {
 }
 
 #slider-switch-l {
-    margin-top: 14vh;
+    margin-top: 12vh;
     height: 1vh;
     margin-left: 3vw;
+
+    color: aliceblue;
+
+    font-size: 40px;
 
     z-index: 10;
 }
 
 #slider-switch-r {
-    margin-top: 14vh;
+    margin-top: 12vh;
     height: 1vh;
     margin-right: 3vw;
+
+    color: aliceblue;
+
+    font-size: 40px;
 
     z-index: 10;
 }
@@ -228,7 +240,7 @@ a {
 }
 
 #footer {
-    height: 6vh;
+    height: 5.5vh;
 
     padding-left: 3vw;
 }
@@ -236,4 +248,9 @@ a {
 #description {
     margin-top: 2vh;
     margin-bottom: 2vh;
+    margin-left: 10vw;
+}
+
+#creators {
+    margin-left: 50vw;
 }

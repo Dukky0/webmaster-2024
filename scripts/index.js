@@ -1,7 +1,8 @@
 const sliderImg = document.getElementById("slider-img");
 const sliderTitle = document.getElementById("slider-title-txt");
 const sliderText = document.getElementById("slider-text-txt");
-const sliderBtn = document.getElementById("slider-btn");
+const sliderBtn = document.getElementById("slider-link");
+const sliderPage = document.getElementById("pages");
 
 const sliderSwitchL = document.getElementById("slider-switch-l");
 const sliderSwitchR = document.getElementById("slider-switch-r");
@@ -30,10 +31,17 @@ function displayPage(pageIndex) {
 
         sliderTitle.textContent = `${page.title}`;
         sliderText.textContent = `${page.content}`;
+        sliderPage.style.transition = "all 0.5s";
 
         sliderBtn.href = `${page.link}`
 
         sliderImg.src = `${page.img}`;
+
+        if ((page.id % 2) === 0) {
+            sliderPage.style.backgroundColor = "#bca89f";
+        } else {
+            sliderPage.style.backgroundColor = "#6c9e61";
+        }
     } else {
         console.log('Page not found');
     }

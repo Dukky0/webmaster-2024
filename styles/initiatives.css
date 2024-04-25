@@ -33,6 +33,12 @@
     border-radius: 10px;
 }
 
+.card:hover {
+    background-color: #267316;
+
+    transition: background-color 0.5s;
+}
+
 .card-title {
     font-size: 30px;
 
@@ -40,10 +46,6 @@
 
     margin-top: 5vh;
     margin-bottom: 15vh;
-}
-
-.card-btn {
-    text-align: center;
 }
 
 #electric-vehicles {
