@@ -2,10 +2,14 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: "Comic Sans MS";
+    font-family: "Berlin Sans FB";
 }
 
 p {
+    margin: 0;
+}
+
+h1 {
     margin: 0;
 }
 
@@ -119,6 +123,8 @@ a {
 #slider-title {
     width: 80%;
     margin-left: 10%;
+
+    font-size: 25px;
 }
 
 #slider-title * {
@@ -132,6 +138,8 @@ a {
 #slider-text {
     width: 80%;
     margin-left: 10%;
+
+    margin-bottom: auto;
 }
 
 #slider-text * {
