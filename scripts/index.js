@@ -13,6 +13,8 @@ import data from "../resources/pages.json" assert {type: "json"};
 
 const pages = data.pages;
 
+let click = 0;
+
 sliderSwitchL.addEventListener('click', function() {
     userInput("back");
     console.log("back");
@@ -37,11 +39,13 @@ function displayPage(pageIndex) {
 
         sliderImg.src = `${page.img}`;
 
-        if ((page.id % 2) === 0) {
+        if ((click % 2) === 0) {
             sliderPage.style.backgroundColor = "#bca89f";
         } else {
             sliderPage.style.backgroundColor = "#6c9e61";
         }
+
+        console.log(click);
     } else {
         console.log('Page not found');
     }
@@ -51,6 +55,8 @@ let pageID = 0;
 displayPage(0);
 
 function userInput(input) {
+    click++;
+
     if (input === 'forward') {
         pageID = (pageID + 1) % pages.length;
         displayPage(pageID);
