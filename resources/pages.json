@@ -5,28 +5,28 @@
       "title": "Electric Vehicles",
       "link": "./electricCar.html",
       "content": "Vehicles that run on electricity solely that use electric motors powered by rechargeable battery packs.",
-      "img": "../resources/electricCar.png"
+      "img": "https://dukky0.github.io/webmaster-2024/resources/electricCar.png"
     },
     {
       "id": 2,
       "title": "Solar Energy",
       "link": "./solar.html",
       "content": "Capture sunlight and convert it into daily electricity.",
-      "img": "../resources/solar.png"
+      "img": "https://dukky0.github.io/webmaster-2024/resources/solar.png"
     },
     {
       "id": 3,
       "title": "Insulation and Appliances",
       "link": "./insulation.html",
       "content": "Efficient appliances and insulation cause less energy to be used and are more eco friendly.",
-      "img": "../resources/window.png"
+      "img": "https://dukky0.github.io/webmaster-2024/resources/window.png"
     },
     {
       "id": 4,
       "title": "Passive Water Heating",
       "link": "./water.html",
       "content": "Use the ground to moderate the temperature of your house.",
-      "img": "../resources/Yellowstone.png"
+      "img": "https://dukky0.github.io/webmaster-2024/resources/Yellowstone.png"
     }
   ]
 }
