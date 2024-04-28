@@ -55,7 +55,7 @@ a {
 
 #logo {
     margin-left: 2vw;
-    margin-right: 70vw;
+    margin-right: 73vw;
     padding-top: 2vh;
 }
 
@@ -110,14 +110,30 @@ a {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
-    background: rgba(255, 255, 255, 0.45);
+    background: rgba(255, 255, 255, 0.85);
 
     width: 35%;
+    height: 35%;
 
     border-radius: 4px;
+
+    transition: all 0.5s ease-in-out;
+}
+
+#home:hover {
+    opacity: 0;
+
+    width: 35%;
+    height: 15%;
 }
 
 #home-title {
+    position: absolute;
+    top: 37.5%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
     margin-bottom: 2vh;
     padding-top: 1vh;
 
@@ -127,6 +143,12 @@ a {
 }
 
 #statement {
+    position: absolute;
+    top: 62.5%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
     text-align: center;
 
     font-size: 25px;
@@ -211,6 +233,18 @@ a {
     background-color: #004303;
 
     margin-inline: auto;
+
+    transition: all 0.5s ease-in-out;
+
+    color: white;
+}
+
+#slider-btn:hover {
+    background-color: #4d7850;
+
+    scale: 1.2;
+
+    color: black;
 }
 
 #slider-btn * {
@@ -346,8 +380,10 @@ a {
 
 #description {
     margin-top: 2vh;
-    margin-bottom: 2vh;
-    margin-left: 10vw;
+    margin-bottom: 2.5vh;
+    margin-inline: auto;
+
+    text-align: center;
 }
 
 #creators {

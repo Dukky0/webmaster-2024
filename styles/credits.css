@@ -1,0 +1,30 @@
+.credit-block {
+    width: 100%;
+
+    margin: auto;
+}
+
+.credit-block-title * {
+    font-size: 40px;
+
+    margin-top: 2vh;
+    margin-inline: auto;
+
+    text-align: center;
+}
+
+.credit-block-text * {
+    margin-top: 2vh;
+
+    font-size: 25px;
+
+    width: 80%;
+
+    margin-inline: auto;
+}
+
+
+.credit-block-text {
+    text-align: center;
+
+}

@@ -23,13 +23,6 @@
     },
     {
       "id": 4,
-      "title": "Household Changes",
-      "link": "./household.html",
-      "content": "Doing proper adjustments around your house can cause significant improvements to your eco friendliness.",
-      "img": "../resources/home.png"
-    },
-    {
-      "id": 5,
       "title": "Passive Water Heating",
       "link": "./water.html",
       "content": "Use the ground to moderate the temperature of your house.",

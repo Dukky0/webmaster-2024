@@ -11,32 +11,34 @@
 }
 
 #row-1 {
-    width: 90%;
+    width: 70%;
 
     margin-inline: auto;
 }
 
-#row-2 {
-    width: 90%;
+#row-1 * {
+    margin-inline: auto;
+}
 
+#row-2 {
+    width: 70%;
+
+    margin-inline: auto;
+}
+
+#row-2 * {
     margin-inline: auto;
 }
 
 .card {
     width: 26vw;
-    height: 30vh;
+    height: 29.80vh;
 
     margin: 5vh 2vw;
 
-    background-color: #accda4;
-
     border-radius: 25px;
-}
 
-.card:hover {
-    background-color: #267316;
-
-    transition: background-color 0.5s;
+    transition: all 0.5s ease-in-out;
 }
 
 .card-title {
@@ -46,28 +48,66 @@
 
     margin-top: 5vh;
     margin-bottom: 15vh;
+
+    opacity: 1;
 }
 
 #electric-vehicles {
+    background-image: url("http://localhost:63342/webmaster-2024/resources/electricCar.png");
+    background-position: center;
 
+    opacity: 0.45;
 }
 
 #solar-energy {
+    background-image: url("http://localhost:63342/webmaster-2024/resources/solar.png");
+    background-position: center;
 
+    opacity: 0.45;
 }
 
-#initiatives {
+#insulation {
+    background-image: url("http://localhost:63342/webmaster-2024/resources/window.png");
+    background-position: center;
 
-}
-
-#air-condiitoning {
-
+    opacity: 0.45;
 }
 
 #household-changes {
+    background-image: url("http://localhost:63342/webmaster-2024/resources/home.png");
+    background-position: center;
 
+    opacity: 0.45;
 }
 
 #passive-water-heating {
+    background-image: url("http://localhost:63342/webmaster-2024/resources/Yellowstone.png");
+    background-position: center;
 
+    opacity: 0.45;
+}
+
+#electric-vehicles:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+#solar-energy:hover {
+     opacity: 1;
+     transform: scale(1.2);
+}
+
+#insulation:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+#household-changes:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+#passive-water-heating:hover {
+    opacity: 1;
+    transform: scale(1.2);
 }
