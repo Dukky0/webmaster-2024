@@ -9,20 +9,7 @@ const sliderSwitchR = document.getElementById("slider-switch-r");
 
 const initiativesBtn = document.getElementById("initiatives");
 
-// fetch("https://dukky0.github.io/webmaster-2024/resources/pages.json")
-//     .then((res) => {
-//         if (!res.ok) {
-//             throw new Error
-//             (`HTTP error! Status: ${res.status}`);
-//         }
-//         return res.json();
-//     })
-//     .then((data) => {
-//         const pages = data.pages;
-//     })
-//     .catch((error) => console.error("Unable to fetch data:", error));
-
-fetch("../resources/pages.json")
+fetch("https://dukky0.github.io/webmaster-2024/resources/pages.json")
     .then((res) => {
         if (!res.ok) {
             throw new Error
