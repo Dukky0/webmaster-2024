@@ -33,7 +33,7 @@ a {
 #pg-content {
     background: #fff4ec;
 
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 #header {
