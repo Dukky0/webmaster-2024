@@ -79,8 +79,9 @@ fetch("https://dukky0.github.io/webmaster-2024/resources/pages.json")
     })
     .then((data) => {
         pages = data.pages;
-        }
-    )
+        let pageID = 0;
+        displayPage(0);
+    })
     .catch((error) => console.error("Unable to fetch data:", error));
 
 let click = 0;
@@ -108,9 +109,6 @@ function userInput(input) {
         console.log('Invalid input. Please enter "forward" or "back".');
     }
 }
-
-let pageID = 0;
-displayPage(0);
 
 function displayPage(pageIndex) {
     const page = pages[pageIndex];
