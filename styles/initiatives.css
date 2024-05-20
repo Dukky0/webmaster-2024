@@ -1,9 +1,23 @@
-#title {
-    font-size: 40px;
+html {
+    background-color: #004303;
+}
 
+#title {
     text-align: center;
 
     padding-top: 10vh;
+}
+
+@media (width <= 1100px) {
+    #title * {
+        font-size: 3.5vw;
+    }
+}
+
+@media (width >= 1100px) {
+    #title * {
+        font-size: 2.1371vw;
+    }
 }
 
 #solution-cards {
